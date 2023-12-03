@@ -1,0 +1,56 @@
+
+
+
+
+ <section class="Hide mt-3" id="Cadastro">
+          <form action="/pdf" method="post" >
+            
+                <div class="input-group mt-2 mb-3 px-3" >
+                    <input type="text" class="form-control"  name="NomeResponsavel" placeholder="Nome do responsável"  aria-describedby="basic-addon1" id="NomeResponsavel" required >
+                </div>
+
+                <div class="input-group mb-3 px-3">
+                    <input type="text" class="form-control" name="RgResponsavel" placeholder="R.G. do responsável"  aria-describedby="basic-addon1" id="RgResponsavel" required>
+                </div>
+
+                <div class="input-group mb-3 px-3">
+                    <input type="text" class="form-control" name="FuncaoResponsavel" placeholder="Função do Responsável"  aria-describedby="basic-addon1" id="FuncaoResponsavel"required >
+                </div>
+
+                <div class="input-group mb-3 px-3" >
+                    <input type="text" class="form-control" name="NomeDoPunido" placeholder="Nome do Punido"  aria-describedby="basic-addon1" id="NomeDoPunido" required>
+                </div>
+
+                <div class="input-group mb-3 px-3" >
+                    <input type="text" class="form-control" name="RGDoPunido" placeholder="R.G Do Punido"  aria-describedby="basic-addon1" id="RGDoPunido" required>
+                </div>
+
+                <div class="input-group mb-3 px-3" >
+                        <input type="text" class="form-control" name="CargoPunido" placeholder="Cargo DPD"  aria-describedby="basic-addon1" id="CargoPunido" required>
+                </div>
+
+                <div class="input-group mb-3 px-3" >
+                        <input type="text" class="form-control"  name="FuncaoDoPunido" placeholder="Função Do Punido"  aria-describedby="basic-addon1" id="FuncaoDoPunido" required>
+                </div>
+       
+
+                {{!-- <div class="input-group mb-3 px-3" id="Assi">
+                    <select class="form-select" id="inputGroupSelect01" name="Assinatura" required >
+                        <option selected value="">Assinatura</option>
+                        <option value="Victor Robert">Victor Robert</option>
+                        <option value="Luiza Mazuchelli">Luiza Mazuchelli</option>
+                        <option value="Warley Souza">Warley Souza</option>
+                    </select>
+                </div> --}}
+
+                <div class="text-center m-3 d-flex justify-content-around">
+                    <button type="submit" id="Gerar"  class="btn  mb-2 Width-40 btn-success">Gerar</button>
+                    {{!-- <button  id="Voltar" class="btn mb-2 Width-40 btn-secondary">Voltar</button> --}}
+                </div>
+            </form>
+         
+        </section>
+     
+
+
+{{!-- Nome do Promovido", "R.G Do Promovido", "Cargo DPD ", "Nova Função --}}
